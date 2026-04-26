@@ -43,3 +43,17 @@
 - `.gitignore` patterns for Node/Next.js projects
 - GitHub branch protection rules via the API
 - `gh` CLI repo management
+
+---
+
+## Step 4 — Set up local dev environment
+
+> Documenting tool versions is not bureaucracy — it's the diff between "works on my machine" and "works on every machine."
+> pnpm is not just a faster npm; it uses a content-addressable store that prevents phantom dependency bugs that npm's hoisting model allows.
+> The Supabase CLI is the local control plane for the database — migrations, type generation, and local dev all run through it.
+
+**Technical Topics**
+- Node.js version management (nvm)
+- pnpm vs npm: hoisting, lockfiles, and the node_modules structure
+- Supabase CLI: local dev, migrations, type generation
+- Environment reproducibility
