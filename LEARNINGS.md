@@ -11,3 +11,20 @@
 - Product requirement framing
 - Audience segmentation
 - Defining measurable success criteria
+
+---
+
+## Step 2 — Lock the tech stack
+
+> An Architecture Decision Record is not documentation — it's a binding contract with your future self that explains why the bridge was built this way.
+> The runner-up matters as much as the winner: naming what lost and why proves the decision was deliberate, not accidental.
+> Consequences are the most honest section of any ADR — what you commit to, what you rule out, and what bets you're knowingly making.
+
+**Technical Topics**
+- Architecture Decision Records (ADRs)
+- Next.js 16 App Router
+- Supabase (Postgres, RLS, Storage, Realtime)
+- Better Auth
+- shadcn/ui component model
+- Twilio Verify
+- Vercel deployment model
