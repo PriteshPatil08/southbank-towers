@@ -28,3 +28,18 @@
 - shadcn/ui component model
 - Twilio Verify
 - Vercel deployment model
+
+---
+
+## Step 3 — Create the GitHub repository
+
+> A `.gitignore` is not housekeeping — it's the last line of defence between your secrets and the public internet.
+> Branch protection turns `main` from a convention into a constraint: force pushes and deletions become physically impossible, not just frowned upon.
+> Renaming `master` to `main` requires changing the default branch on GitHub before deleting the old remote ref — order matters.
+
+**Technical Topics**
+- Git branch renaming and remote tracking
+- GitHub default branch configuration
+- `.gitignore` patterns for Node/Next.js projects
+- GitHub branch protection rules via the API
+- `gh` CLI repo management
