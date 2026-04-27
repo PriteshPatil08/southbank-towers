@@ -57,3 +57,18 @@
 - pnpm vs npm: hoisting, lockfiles, and the node_modules structure
 - Supabase CLI: local dev, migrations, type generation
 - Environment reproducibility
+
+---
+
+## Step 5 — Scaffold the Next.js app
+
+> `create next-app` is opinionated by design — each flag (`--app`, `--src-dir`, `--typescript`) locks in an architectural choice so you never have to revisit it.
+> pnpm uses hard links and symlinks in node_modules; a plain `cp` breaks them — always reinstall with `pnpm install` rather than copying node_modules between directories.
+> Next.js 16 with Turbopack boots in under a second; the old Webpack-based dev server took 10–30 seconds on cold start.
+
+**Technical Topics**
+- Next.js 16 App Router scaffolding
+- Turbopack (Next.js's Rust-based bundler, replacing Webpack in dev)
+- pnpm's content-addressable store and symlink structure
+- TypeScript + Tailwind CSS 4 integration
+- ESLint 9 flat config format (`eslint.config.mjs`)
