@@ -68,7 +68,12 @@ The goal is that the user understands *why* every line exists before it's writte
 
 ## Bash Commands
 
-After every Bash command, follow it with a one-line plain-English explanation of what that command did and what its output means.
+After every Bash command, provide the following four things:
+
+1. **What it did** — one plain-English sentence on what the command did and what its output means.
+2. **Flag breakdown** — explain every flag used in the command (e.g. `-r` means recursive, `-u` sets the upstream tracking branch). Skip flags only if the command has none.
+3. **PowerShell equivalent** — the exact command to achieve the same result in PowerShell.
+4. **CMD equivalent** — the exact command to achieve the same result in Windows CMD (if no direct equivalent exists, say so and explain why).
 
 ---
 
