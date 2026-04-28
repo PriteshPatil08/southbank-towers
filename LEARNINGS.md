@@ -72,3 +72,17 @@
 - pnpm's content-addressable store and symlink structure
 - TypeScript + Tailwind CSS 4 integration
 - ESLint 9 flat config format (`eslint.config.mjs`)
+
+---
+
+## Step 6 — Configure absolute imports and path aliases
+
+> TypeScript path aliases are a compile-time illusion — `@/` is rewritten to a real path by the bundler; the runtime never sees it.
+> A single source-of-truth constants file prevents the app name from drifting across metadata, emails, and the UI over time.
+> `tsc --noEmit` is the fastest way to prove a configuration change is correct without touching the browser.
+
+**Technical Topics**
+- TypeScript `paths` in `tsconfig.json`
+- How Next.js resolves `@/` at build time via the `next` TypeScript plugin
+- `tsc --noEmit` as a type-checking tool separate from compilation
+- The `src/lib` convention for framework-agnostic utilities
